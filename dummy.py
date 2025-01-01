@@ -4,7 +4,7 @@ from gtts import gTTS
 import tempfile
 
 # Configure generative AI API
-genai.configure(api_key=st.secrets["api_key"])
+genai.configure(api_key=st.secrets["gemini_api"])
 
 def ai(txt):
     """
